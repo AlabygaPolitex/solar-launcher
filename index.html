@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar Launcher — скачайте и играйте на SolarTime</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(160deg, #0f0c29, #302b63, #24243e);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .logo {
+      font-size: 48px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      background: linear-gradient(90deg, #f7d774, #f7936f);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 12px;
+    }
+    .tagline { font-size: 20px; color: #cfcfe8; margin-bottom: 40px; }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(90deg, #f7b733, #fc4a1a);
+      color: #fff;
+      font-size: 22px;
+      font-weight: 700;
+      padding: 18px 48px;
+      border-radius: 14px;
+      text-decoration: none;
+      transition: transform .15s, box-shadow .15s;
+      box-shadow: 0 8px 24px rgba(252, 74, 26, .35);
+    }
+    .btn:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(252, 74, 26, .5); }
+    .note { margin-top: 16px; font-size: 14px; color: #a9a9d0; }
+    .steps {
+      margin-top: 60px;
+      display: grid;
+      gap: 20px;
+      max-width: 560px;
+      width: 100%;
+    }
+    .step {
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 12px;
+      padding: 18px 22px;
+      text-align: left;
+      line-height: 1.5;
+    }
+    .step b { color: #f7d774; }
+    footer { margin-top: auto; padding-top: 60px; font-size: 13px; color: #7777a0; }
+  </style>
+</head>
+<body>
+  <div class="logo">☀ SOLAR LAUNCHER</div>
+  <div class="tagline">Лаунчер для сервера SolarTime — скачал и играешь</div>
+
+  <a class="btn" href="https://github.com/ТВОЙ_НИК/solar-launcher/releases/latest">⬇ Скачать лаунчер</a>
+  <div class="note">Windows · бесплатно · без регистрации</div>
+
+  <div class="steps">
+    <div class="step"><b>1.</b> Скачайте архив и распакуйте его в любую папку.</div>
+    <div class="step"><b>2.</b> Запустите Solar Launcher.exe. Если Windows покажет предупреждение — «Подробнее» → «Выполнить в любом случае».</div>
+    <div class="step"><b>3.</b> Введите ник и нажмите «Играть». Игру лаунчер скачает сам.</div>
+    <div class="step"><b>4.</b> Нужна установленная Java 21 — <a href="https://adoptium.net/temurin/releases/?version=21" style="color:#f7d774">скачать здесь</a>.</div>
+  </div>
+
+  <footer>© SolarTime · ссылка на скачивание всегда ведёт на последнюю версию</footer>
+</body>
+</html>
